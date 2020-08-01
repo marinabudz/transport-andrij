@@ -1,0 +1,113 @@
+$lgSize: 1200px;
+$mdSize: 992px;
+$smSize: 768px;
+$xsSize: 450px;
+//width is 600px wide or less:
+.header {
+  background-image: url("photos/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30%;
+  padding-top: 12%;
+  @media screen and(max-width: $mdSize) {
+    padding-top: 5%;
+  }
+  @media screen and(max-width: $smSize) {
+    padding-top: 0%;
+  }
+  &__title {
+    font-size: 30px;
+    @media screen and(max-width: $smSize) {
+      font-size: 20px;
+    }
+    @media screen and(max-width: $xsSize) {
+      font-size: 16px;
+    }
+  }
+  &__description {
+    font-size: 26px;
+    line-height: 60px;
+    @media screen and(max-width: $smSize) {
+      line-height: 40px;
+      font-size: 20px;
+    }
+    @media screen and(max-width: $xsSize) {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+  &__button {
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+
+    @media screen and(max-width: $mdSize) {
+    }
+    @media screen and(max-width: $xsSize) {
+      width: 30%;
+      font-size: 12px;
+      height: 45px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+.why-us-item {
+  margin-bottom: 6%;
+  font-size: 20px;
+  @media screen and(max-width: $smSize) {
+    font-size: 13px;
+    margin-bottom: 2%;
+  }
+  @media screen and(max-width: $smSize) {
+    margin-bottom: 0;
+  }
+  &__text {
+    padding-top: 13%;
+    font-size: 26px;
+    padding-bottom: 8%;
+    @media screen and(max-width: $smSize) {
+      padding-top: 5%;
+      font-size: 20px;
+      padding-top: 9%;
+    }
+    @media screen and(max-width: $xsSize) {
+      padding-bottom: 3%;
+      padding-top: 0%;
+      font-size: 18px;
+    }
+  }
+  &__image {
+    width: 35%;
+    height: 400px;
+
+    @media screen and(max-width: $smSize) {
+      width: 50%;
+      margin-right: 10%;
+    }
+    @media screen and(max-width: $xsSize) {
+      width: 80%;
+      height: 170px;
+    }
+  }
+  &__image img {
+    width: 100%;
+    height: auto;
+  }
+}
+.left-image {
+  margin-right: 15%;
+  @media screen and(max-width: $smSize) {
+    margin-right: 5%;
+  }
+}
+.right-image {
+  margin-left: 15%;
+  @media screen and(max-width: $smSize) {
+    margin-left: 10%;
+  }
+}
+.why-us__title {
+  font-size: 30px;
+}

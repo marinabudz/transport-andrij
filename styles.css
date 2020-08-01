@@ -1,0 +1,97 @@
+.header {
+  background-image: url("photos/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30%;
+  padding-top: 12%; }
+  @media screen and (max-width: 992px) {
+    .header {
+      padding-top: 5%; } }
+  @media screen and (max-width: 768px) {
+    .header {
+      padding-top: 0%; } }
+  .header__title {
+    font-size: 30px; }
+    @media screen and (max-width: 768px) {
+      .header__title {
+        font-size: 20px; } }
+    @media screen and (max-width: 450px) {
+      .header__title {
+        font-size: 16px; } }
+  .header__description {
+    font-size: 26px;
+    line-height: 60px; }
+    @media screen and (max-width: 768px) {
+      .header__description {
+        line-height: 40px;
+        font-size: 20px; } }
+    @media screen and (max-width: 450px) {
+      .header__description {
+        font-size: 14px;
+        line-height: 30px; } }
+  .header__button {
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px; }
+    @media screen and (max-width: 450px) {
+      .header__button {
+        width: 30%;
+        font-size: 12px;
+        height: 45px;
+        padding: 0;
+        margin: 0; } }
+
+.why-us-item {
+  margin-bottom: 6%;
+  font-size: 20px; }
+  @media screen and (max-width: 768px) {
+    .why-us-item {
+      font-size: 13px;
+      margin-bottom: 2%; } }
+  @media screen and (max-width: 768px) {
+    .why-us-item {
+      margin-bottom: 0; } }
+  .why-us-item__text {
+    padding-top: 13%;
+    font-size: 26px;
+    padding-bottom: 8%; }
+    @media screen and (max-width: 768px) {
+      .why-us-item__text {
+        padding-top: 5%;
+        font-size: 20px;
+        padding-top: 9%; } }
+    @media screen and (max-width: 450px) {
+      .why-us-item__text {
+        padding-bottom: 3%;
+        padding-top: 0%;
+        font-size: 18px; } }
+  .why-us-item__image {
+    width: 35%;
+    height: 400px; }
+    @media screen and (max-width: 768px) {
+      .why-us-item__image {
+        width: 50%;
+        margin-right: 10%; } }
+    @media screen and (max-width: 450px) {
+      .why-us-item__image {
+        width: 80%;
+        height: 170px; } }
+  .why-us-item__image img {
+    width: 100%;
+    height: auto; }
+
+.left-image {
+  margin-right: 15%; }
+  @media screen and (max-width: 768px) {
+    .left-image {
+      margin-right: 5%; } }
+
+.right-image {
+  margin-left: 15%; }
+  @media screen and (max-width: 768px) {
+    .right-image {
+      margin-left: 10%; } }
+
+.why-us__title {
+  font-size: 30px; }

@@ -147,7 +147,7 @@ $xsSize: 450px;
   }
 }
 .services {
-  background-color: #f69f20;
+  background-color: #65909e;
   padding-top: 6%;
   padding-bottom: 10%;
   &__title {
@@ -161,6 +161,16 @@ $xsSize: 450px;
   width: 30%;
   font-size: 20px;
   padding: 80px;
+  @media screen and(max-width: $mdSize) {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20%;
+    padding: 40px;
+  }
+  @media screen and(max-width: $xsSize) {
+    padding: 10px;
+  }
   &__line {
     width: 30%;
     height: 3px;
@@ -169,5 +179,109 @@ $xsSize: 450px;
   }
   &__title {
     padding-bottom: 20%;
+  }
+}
+
+.service-items {
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: space-evenly;
+  @media screen and(max-width: $mdSize) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.slider {
+  margin-top: 10%;
+  margin-bottom: 80px;
+  &__title {
+    margin-bottom: 10%;
+  }
+}
+.slider-for {
+  &__item {
+    width: auto;
+    height: 800px;
+    @media screen and(max-width: $mdSize) {
+      height: 400px;
+    }
+    @media screen and(max-width: $xsSize) {
+      height: 300px;
+    }
+  }
+  &__item img {
+    width: 100%;
+    height: auto;
+  }
+}
+.slider-nav {
+  &__item {
+    height: 200px;
+    width: 30%;
+    margin-right: 30px;
+    @media screen and(max-width: $mdSize) {
+      height: 150px;
+      width: 35%;
+    }
+    @media screen and(max-width: $xsSize) {
+      height: 50px;
+      margin-right: 20px;
+    }
+  }
+  &__item img {
+    height: auto;
+    width: 100%;
+  }
+}
+.contact {
+  background-image: url("photos/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30%;
+  color: #213140;
+
+  &__items {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(max-width: $xsSize) {
+      width: 100%;
+    }
+  }
+  &__icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    @media screen and(max-width: $smSize) {
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
+  &__email {
+    @media screen and(max-width: $smSize) {
+      font-size: 10px;
+    }
+  }
+  &__social {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(max-width: $xsSize) {
+      width: 80%;
+    }
+  }
+}
+.contact-info {
+  padding-top: 10%;
+  @media screen and(max-width: $smSize) {
+    width: 45%;
+    text-align: center;
+  }
+  @media screen and(max-width: $xsSize) {
+    margin-top: -30px;
+    padding-top: 0%;
   }
 }

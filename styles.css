@@ -216,7 +216,7 @@
   margin-right: 30px; }
   @media screen and (max-width: 992px) {
     .slider-nav__item {
-      height: 150px;
+      height: 100px;
       width: 35%; } }
   @media screen and (max-width: 450px) {
     .slider-nav__item {
@@ -239,6 +239,9 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto; }
+    @media screen and (max-width: 992px) {
+      .contact__items {
+        width: 60%; } }
     @media screen and (max-width: 450px) {
       .contact__items {
         width: 100%; } }

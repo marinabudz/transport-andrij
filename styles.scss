@@ -220,7 +220,7 @@ $xsSize: 450px;
     width: 30%;
     margin-right: 30px;
     @media screen and(max-width: $mdSize) {
-      height: 150px;
+      height: 100px;
       width: 35%;
     }
     @media screen and(max-width: $xsSize) {
@@ -246,6 +246,9 @@ $xsSize: 450px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    @media screen and(max-width: $mdSize) {
+      width: 60%;
+    }
     @media screen and(max-width: $xsSize) {
       width: 100%;
     }
